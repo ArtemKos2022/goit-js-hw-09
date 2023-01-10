@@ -13,7 +13,7 @@ function onStart() {
   refs.startBtn.disabled = true;
   refs.stopBtn.disabled = false;
   timerId = setInterval(bodyBg, 1000);
-  bodyBg()
+  bodyBg();
 }
 
 function onStop() {
